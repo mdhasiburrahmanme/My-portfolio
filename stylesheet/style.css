@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+/* Nav Bar Design */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 50px;
+    background-color: #3498db;
+font-family: work sans, sans serif;
+}
+
+.logo{
+    color: white;
+    text-shadow: 0 0 8px #bdc3c7;
+}
+
+.navLink{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* margin: 0 50px; */
+}
+
+.navLink li a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.navLink li a:hover{
+    box-shadow: 0 0 8px yellow;
+    transition: 0.3s;
+}
+
+.btn{
+    /* padding: 20px 10px; */
+    border: none;
+    background: #FFC312;
+    border-radius: 4px;
+    color: #3498db;
+    font-weight: 900;
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0 0 8px #bdc3c7;
+    transition: 0.3s;
+}
+
+/* Main Design */
+
+main{
+    background: url(../Image/pexels-njeromin-30095249.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.blackShadow{
+    background-color: black;
+    height: 600px;
+    opacity: 0.7;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    margin: 0 
+    150px;
+    justify-content: space-between;
+}
+
+.leftCon{
+    color: white;
+    width: 60%;
+}
+
+.subtitle{
+    font-size: 28px;
+}
+
+.title{
+    font-size: 48px;
+    font-family: work sans;
+}
+
+.description{
+    font-size: 16px;
+    font-family: work sans;
+    margin-bottom: 20px;
+}
+
+.mainImg{
+    height: 250px;
+}
+
+.cv{
+    background-color: #3498db;
+    color: white;
+}
+
+/* Middle design */
+
+/* Footer design */
+
+footer{
+    height: 60px;
+    background: #bdc3c7;
+    text-align: center;
+}
+
+footer > p{
+    font-family: work sans;
+    font-weight: bold;
+    color: blue;
+    padding: 20px;
+}
