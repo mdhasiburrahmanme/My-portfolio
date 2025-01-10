@@ -110,13 +110,13 @@ main{
     margin-bottom: 20px;
 }
 
-.mainImg{
-    height: 250px;
-}
-
 .cv{
     background-color: #3498db;
     color: white;
+}
+
+.mainImg{
+    height: 250px;
 }
 
 /* About design */
@@ -125,6 +125,10 @@ main{
     width: 100%;
     justify-content: center;
     align-items: center;
+    background-color: #dfe6e9;
+    color: #636e72;
+    padding: 50px 0;
+    text-align: justify;
 }
 
 .aboutPart{
@@ -132,16 +136,53 @@ main{
     margin: auto;
 }
 
-.aboutInfo{
-    display: grid;
+.title{
+    margin-bottom: 15px;
+    text-align: center;
 }
 
+.aboutInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Skill Part */
+
+.skill{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #bdc3c7;
+    color: #2d3436;
+    padding: 50px 0;
+    text-align: justify;
+}
+
+.skillPart{
+    width: 60%;
+    margin: auto;
+}
+
+.skillInfo{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 15px;
+}
+
+.skillPart .info{
+    width: 25%;
+    background-color: #81ecec;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px black;
+    text-align: left;
+}
 
 /* Footer design */
 
 footer{
     height: 60px;
-    background: #bdc3c7;
+    background: #b2bec3;
     text-align: center;
 }
 
